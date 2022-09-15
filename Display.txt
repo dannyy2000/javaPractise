@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Display{
+
+public static void main(String[] args){
+ 
+  char letter;
+
+  Scanner input = new Scanner(System.in);
+
+  System.out.print("Enter a letter");
+  letter = input.next().charAt(0);
+
+  switch(letter){
+  
+  case1:
+     System.out.println("A is in our system");
+     break;
+
+  case2:
+     System.out.pritln("B is in our system");
+     break;
+
+  case3:
+     System.out.println("C is in our system");
+     break;
+
+  case4:
+     System.out.println("D is in our system");
+     break;
+
+  default:
+     System.out.println("Not found");
+     break;
+   
+}  
+}
+}
